@@ -1,0 +1,82 @@
+.App {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.inputs {
+  height: 400px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #2bf2ac;
+}
+.inputs input {
+  width: 200px;
+  height: 50px;
+  font-size: 18px;
+  margin: 10px;
+  padding-left: 10px;
+}
+
+.inputs button {
+  border: none;
+  width: 150px;
+  height: 50px;
+  background-color: rgb(110, 233, 79);
+  color: white;
+  border-radius: 10px;
+  font-size: 15px;
+}
+.inputs button:hover {
+  cursor: pointer;
+  background-color: rgb(230, 176, 115);
+}
+
+.listofFriends {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.friend {
+  width: 400px;
+  height: 60px;
+  background-color: rgb(110, 233, 79);
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+  display: flex;
+  margin: 10px;
+  border: 2px solid black;
+  border-radius: 20px;
+}
+.friend h3 {
+  margin-left: 15px;
+}
+
+.friendContainer {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+}
+.button {
+  height: 60px;
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 20px;
+  color: white;
+  background-color: rgb(110, 233, 79);
+  margin-left: 5px;
+}
+#removebtn {
+  background-color: darkred;
+  color: black;
+}
