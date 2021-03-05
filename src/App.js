@@ -47,8 +47,8 @@ function App() {
   return (
     <div className="App">
       <div className="inputs">
-        <input type="text" placeholder="Friend name..." onChange={(event) => {setName(event.target.value)}}></input>
-        <input type="number" placeholder="Friend age..." onChange={(event) => {setAge(event.target.value)}}></input>
+        <input type="text" placeholder="Friend Name..." onChange={(event) => {setName(event.target.value)}}></input>
+        <input type="number" placeholder="Friend's Age..." onChange={(event) => {setAge(event.target.value)}}></input>
         <button onClick={addFriend}>Add Friend</button>
       </div>
       <div className="listofFriends">
@@ -59,7 +59,7 @@ function App() {
             <h3><strong>Name: {val.name}</strong></h3> 
             <h3> Age: {val.age}</h3>
           </div>
-            <button className="button" onClick={() => {updateFriend(val._id)}}>UPDATE</button>
+            <button className="button" onClick={() => {updateFriend(val._id)}}>Update</button>
             <button className="button" id="removebtn" onClick={() => {deleteFriend(val._id)}}>DELETE</button>
           </div>
       )
