@@ -60,7 +60,7 @@ function App() {
             <h3> Age: {val.age}</h3>
           </div>
             <button className="button" onClick={() => {updateFriend(val._id)}}>Update</button>
-            <button className="button" id="removebtn" onClick={() => {deleteFriend(val._id)}}>DELETE</button>
+            <button className="button" id="removebtn" onClick={() => {deleteFriend(val._id)}}>Delete</button>
           </div>
       )
       })}
